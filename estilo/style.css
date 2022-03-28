@@ -39,9 +39,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
-    
-    
+    padding-top: 40px;    
 }
 
 header > h1 {
@@ -50,11 +48,8 @@ header > h1 {
     margin-bottom: 20px;
     font-weight: normal;
     font-size: 2.5em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    
-    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);    
 }
-
 
 header > p {
     font-family: var(--fonte-padrao);
@@ -66,15 +61,13 @@ header > p {
     padding-left: 10px;
     margin: auto;
     padding-bottom: 50px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);  
 }
 
 nav{
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.288);
-    
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.288);   
 }
 
 nav > a {
@@ -90,6 +83,7 @@ nav > a:hover {
     color: var(--cor5);
     border-radius: 5px;
 }
+
 main img{
     width: 100%;
 }
@@ -105,19 +99,15 @@ div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 21px;
-    padding-bottom: 56.5%;
-
-    
+    padding-bottom: 56.5%;   
 }
+
 div.video > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
-
-
-
 }
 
 main{
@@ -135,18 +125,15 @@ main p {
     text-align: justify;
     padding: 15px 0px;
     text-indent: 30px;
-    line-height: 1.6em;
-    
+    line-height: 1.6em;  
 }
-
 
 main h2 {
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     color: var(--cor4);
     padding-left: 10px;
-    font-family: var(--fonte-android);
-    
+    font-family: var(--fonte-android);   
 }
 
 main strong {
@@ -160,16 +147,13 @@ main a {
     background-color: var(--cor1);
     text-decoration: none;
     padding: 2px 6px;
-
 }
 
 main a:hover{
     background-color: var(--cor5);
     color: white;
-    text-decoration: underline;
-    
+    text-decoration: underline;  
 }
-
 
 article > h1 {
     color: var(--cor5);
@@ -183,6 +167,7 @@ aside{
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
+
 aside > h3 {
     background-color: var(--cor4);
     color: white;
@@ -194,8 +179,7 @@ aside > h3 {
 aside > ul {
     list-style-position: inside;
     columns: 2;
-    list-style-type: '\2714\00A0\00A0';
-    
+    list-style-type: '\2714\00A0\00A0'; 
 }
 
 footer{
@@ -210,30 +194,10 @@ footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
-
 }
 
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
-
-@media only screen and (max-width: 445px){
-    footer {
-        width: 373px; }
-
-@media only screen and (max-width: 445px) {
-    header p a {
-        width: 383px; }
-    }            
-        header > p {
-            font-size: 1em;
-        }
-
-        nav > a {
-            font-size: 12px;
-
-        }
-
-     
-    }
+  
